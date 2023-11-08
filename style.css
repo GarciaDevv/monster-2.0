@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style:none;
+    text-align: initial;
+} 
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Nosifer', sans-serif;
+}
+
+
+body{ background-color:#000000 ;
+    
+}
+
+header{
+    position: fixed;
+    width:100%;
+    top: 0;
+    right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 1%;
+}
+header i:hover{
+    color:#95D600;
+   
+}
+.logo{ display: flex;
+    align-items: center;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Nosifer', sans-serif;
+   
+}
+.logo i{color:white;
+    margin-right:5px;
+    
+    
+}
+.navegaçao{ display: flex;
+
+}
+.navegaçao a{
+    color:white;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 30px;
+    transition: a .55s ease;
+    font-family: 'Nosifer', sans-serif;
+ 
+
+}
+div i{ color: #95D600;
+}
+.navegaçao a:hover{
+    color:#95D600;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+
+}
+#menu{ font-size: 35px;
+    font-weight: 1001;
+    cursor: pointer;
+
+}
+.header-icons i {color: white;
+    margin: 28px;
+     font-size: 30px;
+     cursor: pointer;
+     transition: all ,5 ease;
+     
+   
+}
+.header-icons i:hover{
+    color:#95D600;
+    transform: translateY(+5px);
+}
+
+
+section img{
+    width:300;
+ height:600 ; 
+ border-radius: 60px;
+ border-width: 60px;
+ 
+}
+.home{
+    display: flex;
+    justify-content: center;
+    
+}
+.home{
+    height: 100vh;
+    position:relative;
+    width: 100%;
+    align-items: center;
+    grid-template-columns: 2fr,1fr;
+    gap: 2rem;
+}
+.home-text{
+    color: #95D600;
+    
+    
+}
+h2{
+    color:white;
+    cursor: pointer;
+    transition: a .55s ease;
+    font-family: 'Saira Condensed', sans-serif;
+ 
+  
+    
+}
+.home-text h2:hover{
+    color:#95D600;
+    
+
+}
+table{
+   border-color:white;
+   font-size:30px ;
+   border-radius: 20px;
+  border-collapse: collapse;
+  letter-spacing: 1px;
+  word-spacing: 6px;
+  color: white;
+  font-family: 'Saira Condensed', sans-serif;
+
+}
+h3{
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: left;
+    margin-left: -370px;
+}
+.bnt{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all ,5 ease;
+    font-family: 'Saira Condensed', sans-serif;
+}
+button{
+    background-color:#95D600;
+    border-bottom: #95D600;
+  border-radius: 20px;
+  transition: all ,0.5 ease ease-in-out 0s;
+  width: 120px;
+  height: 60px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+
+  position: absolute;
+  top: 81%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+hr{
+    color: #95D600;
+    border-color: #95D600;
+}
+th{
+    font-family: 'Saira Condensed', sans-serif;
+}
+button :hover{
+    color: blue;
+    animation-delay: 0s;
+    background: transparent;
+    transform: scale(1.5);rotate:360deg ;
+   cursor: grab;
+   box-shadow: #000000;
+
+  
+}
+ .login{
+    background-color:black;
+    width: 200px;
+    height: 90px;
+    border-radius: 10px;
+    text-align: center;
+
+ }
+ h3{
+    text-align: center;
+    color: #95D600;
+ }
+ div ::placeholder{
+    background-color:white;
+    
+
+ }
+ h6{
+    margin-left: 20px;
+    color: #95D600;
+ }
+
+
+
+
+  /* Estilos para dispositivos móveis */
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+    }
+ 
